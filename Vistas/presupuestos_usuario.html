@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Presupuestos Usuario</title>
+        <link rel="stylesheet" href="dds.css" type="text/css" />
+    </head>
+    <body>
+        <ul class="encabezado">
+            <li class = "elemento_encabezado"><a class = "link_elemento_encabezado" href="menu_usuario.html">Usuario</a></li>
+            <li class = "elemento_encabezado"><a class = "link_elemento_encabezado" href = "entidad.html">Entidad</a></li>
+        </ul>
+        <section class = "content">
+            <div>
+                <table>
+                    <tr>
+                        <th> Presupuesto </th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Presupuesto 1</td>
+                        <td><a href="editar_presupuesto.html">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Presupuesto 2</td>
+                        <td><a href="editar_presupuesto.html">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Presupuesto 3</td>
+                        <td><a href="editar_presupuesto.html">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                </table>
+            </div>
+            <fieldset class = "formulario">
+                <legend>Crear Presupuesto</legend>
+                <form>
+                    <label class = "label2">Proveedor</label>
+                    <input type="text" id="proveedor" name="proveedor" placeholder="Ingrese id de proveedor..." />
+                    <label class = "label2">Detalle</label>
+                    <input type="text" id="detalle" name="detalle" placeholder="Ingrese id de detalle..." />
+                    <label class = "label2">Documento Comercial</label>
+                    <input type="text" id="documento_comerical" name="documento_comerical" placeholder="Ingrese id documento comercial..." />
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Crear" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <br/>
+            <a class = "link_boton" href = "editar_compra.html">  Volver  </a>
+        </section>
+    </body>
+</html>

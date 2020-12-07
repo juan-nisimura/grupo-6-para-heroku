@@ -1,0 +1,40 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <fieldset class = "formulario">
+        <legend>Modiciar Detalle</legend>
+        <form>
+            <label class = "label2">Detalle</label>
+            <input type="text" id="detalle" name="detalle" placeholder="Ingrese nuevo detalle..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Modificar" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Modiciar Proveedor</legend>
+        <form>
+            <label class = "label2">Proveedor</label>
+            <input type="text" id="proveedor" name="proveedor" placeholder="Ingrese nuevo proveedor..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Modificar" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Modiciar Documento Comercial</legend>
+        <form>
+            <label class = "label2">Documento Comercial</label>
+            <input type="text" id="documento_comercial" name="documento_comercial" placeholder="Ingrese nuevo id documento comercial..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Modificar" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+    </fieldset>
+
+    <a class = "link_boton" href = "/compra/editar/presupuestos">  Volver  </a>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}

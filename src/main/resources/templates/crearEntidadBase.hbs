@@ -1,0 +1,20 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <fieldset class = "formulario">
+        <legend>Crear entidad base</legend>
+        <form method="POST" action=/entidades/crear_entidad_base class="content">
+            <label class = "label2">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre..." />
+            <label class = "label2">Descripción</label>
+            <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese descripción..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <a class = "submit_gris" href = "/entidades">  Volver  </a>
+        </form>
+    </fieldset>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}

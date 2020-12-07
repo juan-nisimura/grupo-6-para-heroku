@@ -1,0 +1,260 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+.encabezado{
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+.elemento_encabezado{
+    float: left;
+}
+
+.link_elemento_encabezado{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.link_elemento_encabezado:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.dropdown-btn{
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border:none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown-btn:hover{
+    background-color: rgba(4, 75, 228, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display:block
+}
+
+#content{
+    margin-top: 20px;
+}
+
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    line-height: 3;
+    text-shadow: 0px -1px 1px #1900f8cc;
+}
+
+input[type=text] {
+    width: 12%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.label1{
+    margin-left: 25px;
+}
+
+.label2{
+    margin-left:25px;
+}
+
+.submit_0{
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.submit_azul{
+    width: 40%;
+    background-color: #0090ff;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 70px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.submit_gris{
+    width: 40%;
+    background-color: #aaa;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 70px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.link_boton{
+    display: inline-block;
+    background-color: #0090ff;
+    color: white;
+    width: 20%;
+    padding: 14px 25px;
+    margin:10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.link_boton_2{
+    display: block;
+    background-color: #1ef30b;
+    color: white;
+    width: 20%;
+    padding: 14px 20px;
+    margin:auto;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.link_boton_2:hover{
+    background-color: #00dfae;
+}
+
+.link_boton:hover{
+    background-color: #006bf7;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.submit_gris:hover{
+    background-color: rgb(150, 148, 148);
+}
+
+.submit_azul:hover{
+    background-color: #4CAF50;
+}
+
+submit_0:hover{
+    background-color: #0090ff;
+}
+
+.boton_bueno{
+        padding: 7px;
+        border-width: 0px;
+        color: #fff;
+        background-color: #0090ff;
+}
+
+.boton_malo{
+    padding: 7px;
+    border-width: 0px;
+    color: #fff;
+    background-color: #aaa;
+}
+
+.box {
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+table {
+    margin-top: 60px;
+    width: 100%;
+    font-size: 1.2e;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(37, 158, 138);
+}
+
+td{
+    padding:5px;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+
+table th{
+    background-color: #1b34c2;
+    color: white;
+    padding:5px;
+}
+
+td a{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.formulario{
+    margin-top: 40px;
+}

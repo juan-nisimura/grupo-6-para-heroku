@@ -1,0 +1,16 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+
+	Id: {{ id }}	<br/>
+	Nombre: {{ nombre }}	<br/>
+	Editar Categorias:
+    <div>
+    	{{{ tablaCategoriasEditar }}}
+    </div>
+    <a class = "submit_gris" href = {{urlView}}>  Volver  </a>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editar compra</title>
+        <link rel="stylesheet" href="dds.css" type="text/css" />
+    </head>
+    <body>
+        <ul class="encabezado">
+            <li class = "elemento_encabezado"><a class = "link_elemento_encabezado" href="menu_usuario.html">Usuario</a></li>
+            <li class = "elemento_encabezado"><a class = "link_elemento_encabezado" href = "entidad.html">Entidad</a></li>
+        </ul>
+        <section class = "content">
+            <fieldset class = "formulario">
+                <legend>Modificar Detalle</legend>
+                <form>
+                    <label class = "label2">Detalle</label>
+                    <input type="text" id="detalle" name="detalle" placeholder="Ingrese nuevo detalle..." />
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Modificar" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <fieldset class = "formulario">
+                <legend>Modificar Proveedor</legend>
+                <form>
+                    <label class = "label2">Proveedor</label>
+                    <input type="text" id="proveedor" name="proveedor" placeholder="Ingrese nuevo proveedor..." />
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Modificar" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <fieldset class = "formulario">
+                <legend>Modificar Medio de Pago</legend>
+                <form>
+                    <label class = "label2">Medio de Pago</label>
+                    <input type="text" id="medio_pago" name="medio_pago" placeholder="Ingrese nuevo id medio de pago..." />
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Modificar" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <fieldset class = "formulario">
+                <legend>Modificar Criterio Presupuestario</legend>
+                <form>
+                    <label class = "label2">Criterio Presupuestario</label>
+                    <select class="combo">
+                        <option value="Select">Elija una opción...</option>
+                        <option value="estandar">Más barato</option>
+                        <option value="estandar">Sin creterio</option>
+                    </select>
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Modificar" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <a class = "link_boton" href = "presupuestos_usuario.html">  Presupuestos  </a>
+            <br/>
+            <a class = "link_boton" href = "etiquetas_usuario.html">  Etiquetas  </a>
+            <br/>
+            <a class = "link_boton" href = "entidades_usuario.html">  Darse de Alta  </a>
+            <br/>
+            <a class = "link_boton" href = "entidades_usuario.html">  Volver  </a>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+{{#partial "contenido"}}
+
+<form class = "content">
+
+	Id: {{ id }}	<br/>
+	Nombre: {{ nombre }}	<br/>
+	
+	Razon Social: {{ razonSocial }}	<br/>
+	CUIT:  {{ cuit }}	<br/>
+	Direccion postal: {{ direccionPostal }}	<br/>
+	Codigo de inscripcion: {{ codigoInscripcion }}	<br/>
+	
+	Tabla de compras:
+	
+	<div>
+        <table>
+    	<tr>
+            <th> Id </th>
+            <th> Nombre </th>
+            <th></th>
+        </tr>
+    	{{#each compras}}
+    		<tr>
+    		<td>{{ id }}</td>
+       		<td>{{ nombre }}</td>
+       		<td><a href = "{{urlView}}">Ver</a></th>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+	
+	Tabla de categorias:
+	
+	<div>
+        <table>
+    	<tr>
+            <th> Id </th>
+            <th> Nombre </th>
+            <th></th>
+        </tr>
+    	{{#each categorias}}
+    		<tr>
+    		<td>{{ id }}</td>
+       		<td>{{ nombre }}</td>
+       		<td><a href = "{{urlView}}">Ver</a></th>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+	
+	<a class = "link_boton" href = {{urlEditarCategorias}}>  Editar Categorias  </a>
+	<br/>
+	
+	Tabla de entidades base (FALTA):
+	
+		<div>
+        <table>
+    	<tr>
+            <th> Id </th>
+            <th> Nombre </th>
+            <th> </th>
+            <th> </th>
+        </tr>
+    	{{#each entidadesBase}}
+    		<tr>
+    		<td>{{ id }}</td>
+       		<td>{{ nombre }}</td>
+       		<td><a href = "{{ urlView }}"> Ver </a></th>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+    
+	<a class = "link_boton" href = {{urlEditarEntidadesBase}}>  Editar Entidades Base  </a>
+	
+    <a class = "link_boton" href = "entidad_juridica/reportes_mensuales">  Ver reporte mensual ???  </a>
+    <br/>
+    <a class = "link_boton" href = "/entidades">  Volver  </a>
+</form>
+
+{{/partial}}
+
+{{>layout.hbs}}

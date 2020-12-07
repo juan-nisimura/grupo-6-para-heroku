@@ -1,0 +1,85 @@
+{{#partial "contenido"}}
+
+        <section class = "content">
+            <div>
+            MENU DE LA COMPRA {{id}}
+                <table>
+                    <tr>
+                        <th> Campo </th>
+                        <th> Valor </th>
+                    </tr>
+                    <tr>
+                        <td>ID de la compra: </td>
+                        <td>{{id}}</th>
+                    </tr>
+                    <tr>
+                        <td>ID de su detalle</td>
+                        <td>{{detalle.id}}</th>
+                    </tr>   
+                    <tr>
+                        <td>Cantidad presupuestos requeridos: </td>
+                        <td> {{cantidadpresuprequeridos}} </th>
+                    </tr>              
+                    <tr>
+                        <td>Cantidad de presupuestos actuales: </td>
+                        <td>{{cantidadpresupactuales}}</th>
+                    </tr>
+                    <tr>
+                        <td>ID de su proveedor: </td>
+                        <td> {{proveedor.id}} </th>
+                    </tr>
+                     <tr>
+                        <td>Criterio de seleccion de presupuesto: </td>
+                        <td> {{criterioseleccion}} </th>
+                    </tr>
+
+                    <tr>
+                        <td>Fecha de creacion original: </td>
+                        <td> {{fecha}} </th>
+                    </tr>
+                    <tr>
+                        <td>ID de su MedioDePago: </td>
+                        <td> {{mediopago.id}} </th>
+                    </tr>
+                    <tr>
+                        <td>ID de su entidad: </td>
+                        <td> {{entidad.id}} </th>
+                    </tr>
+                </table>
+            </div>
+Proceda con cuidado, ningun cambio se puede revertir
+                 <fieldset class = "formulario">
+                <legend>Editar compra</legend>
+                <form action="/compras/{{id}}" method="post">
+                    <label class = "label2">Cantidad presupuestos requeridos</label>
+                    <input type="text" id="cant_presup" name="cant_presup" placeholder="Ingrese cantidad de presupuestos..." value="{{cantidadpresuprequeridos}}" />
+                    <label class = "label2">Detalle</label>
+                    <input type="text" id="detalle" name="detalle" value="{{detalle.id}}" placeholder="Ingrese nuevo detalle..." />
+                    <label class = "label2">Proveedor</label>
+                    <input type="text" id="proveedor" name="proveedor" value="{{proveedor.id}}" placeholder="Ingrese nuevo proveedor..." />
+                    <br />
+                    <label class = "label2">Medio de Pago</label>
+                    <input type="text" id="medio_pago" name="medio_pago" value="{{mediopago.id}}" placeholder="Ingrese nuevo id medio de pago..." />
+                    <label class = "label2">Entidad</label>
+                    <input type="text" id="entidad" name="entidad" value="{{entidad.id}}" placeholder="Ingrese nuevo id de entidad..." />                    
+                    <label class = "label2">Criterio Presupuestario</label>
+                    <select class="combo" name="criterio">
+                        <option value="ninguno">...No modificar...</option>
+                        <option value="1">Sin creterio</option>
+                        <option value="2">Más barato</option>
+                        <option value="3">Más caro</option>
+                        <option value="4">Lo dejo a su criterio</option>
+                    </select>
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Actualizar compra" >
+                </form>
+            </fieldset>
+            <fieldset class = "formulario">
+                <legend>Editar presupuestos</legend>
+					<a class = "link_boton" href = "/compras/{{id}}/presupuestos">  Ver y modificar presupuestos de la compra {{id}} </a>
+            </fieldset>
+            <a class = "link_boton_2" href = "/compras">  Volver a la lista de compras </a>
+
+{{/partial}}
+
+{{>layout.hbs}}       

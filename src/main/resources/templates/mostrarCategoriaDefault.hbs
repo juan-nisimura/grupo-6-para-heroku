@@ -1,0 +1,36 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    Categoria: {{ nombre }}
+	<br />
+	<label for="bloquearAgregarEntidadesBase"> Bloquear agregado de entidades base: {{bloquearAgregarEntidadesBase}}</label>
+	<br />
+	<label for="bloquearFormarParteEntidadJuridica"> Bloquear formar parte de una entidad juridica: {{bloquearFormarParteEntidadJuridica}}</label>
+    <br />
+	<label for="bloquearNuevasCompras"> Bloquear nuevas compras que superen un maximo: {{bloquearNuevasCompras}}</label>
+    <br />
+    <label for="egresosMaximos">Egresos Maximos: {{egresosMaximos}}</label>
+   	<br />
+   	<a class = "submit_azul" href = {{urlEditar}}>  Editar  </a>
+    <a class = "submit_gris" href = "/categorias">  Volver  </a>
+</section>
+<div>
+    <table>
+	<tr>
+        <th> Entidad </th>
+        <th> Tipo </th>
+        <th></th>
+    </tr>
+	{{#each entidades}}
+		<tr>
+		<td>{{ nombre }}</td>
+   		<td>{{ tipo }}</td>
+   		<td><a href = "{{urlView}}">Ver Entidad</a></th>
+   		</tr>
+	{{/each}}
+	</table>
+</div>
+
+{{/partial}}
+
+{{>layout.hbs}}

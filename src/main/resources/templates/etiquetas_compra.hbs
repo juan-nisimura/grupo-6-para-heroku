@@ -1,0 +1,40 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <div>
+        <table>
+            <tr>
+                <th> Etiqueta </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Etiqueta 1</td>
+                <td><a>Borrar</a></th>
+            </tr>
+            <tr>
+                <td>Etiqueta 2</td>
+                <td><a>Borrar</a></th>
+            </tr>
+            <tr>
+                <td>Etiqueta 3</td>
+                <td><a>Borrar</a></th>
+            </tr>
+        </table>
+    </div>
+    <fieldset class = "formulario">
+        <legend>Agregar Etiqueta</legend>
+        <form>
+            <label class = "label2">Etiqueta</label>
+            <input type="text" id="etiqueta" name="etiqueta" placeholder="Ingrese etiqueta..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Agregar" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+    </fieldset>
+    <br/>
+    <a class = "link_boton" href = "/compra/editar">  Volver  </a>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}

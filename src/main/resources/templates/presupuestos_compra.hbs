@@ -1,0 +1,64 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <div>
+    PRESUPUESTOS DE LA COMPRA {{id}}
+        <table>
+            <tr>
+                <th> Presupuesto </th>
+                <th>Proveedor</th>
+                <th>Detalle</th>
+                <th>Documento comercial</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Presupuesto 1 ejemplo</td>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+                <td><a href = "a">Borrar</a></td>
+            </tr>
+            <tr>
+                <td>Presupuesto 2 ejemplo</td>
+                <th>-</th>
+                <th>-</th>
+                <th>-</th>
+                <td><a href = "a">Borrar</a></td>
+            </tr>
+    	{{#each presupuestos}}
+    		<tr>
+    		<td>{{ id }}</td>
+       		<td>{{ proveedor.id }}</td>
+       		<td>{{ detalle.id }}</td>
+       		<td>{{ doccomercial.id }}</td>
+            <td>
+                <form action="/compras/{{../id}}/presupuestos/{{id}}/borrar" method="post">
+                <input type="submit" value="Borrar" >
+                 </form>
+             </td>
+       		</tr>
+    	{{/each}}
+        </table>
+    </div>
+    <fieldset class = "formulario">
+        <legend>Crear Presupuesto</legend>
+        <form action="/compras/{{id}}/presupuestos" method="post">
+            <label class = "label2">Proveedor</label>
+            <input type="text" id="proveedor" name="proveedor" placeholder="Ingrese id de proveedor..." />
+            <label class = "label2">Detalle</label>
+            <input type="text" id="detalle" name="detalle" placeholder="Ingrese id de detalle..." />
+            <label class = "label2">Documento Comercial</label>
+            <input type="text" id="documento_comerical" name="documento_comerical" placeholder="Ingrese id documento comercial..." />
+            <input type="hidden" id="id_compra" name="id_compra" value="{{id}}"/>
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+    </fieldset>
+    <br/>
+    <a class = "link_boton" href = "/compras/{{id}}">  Volver al menu de la compra {{id}} </a>
+</section>
+ 
+{{/partial}}
+
+{{>layout.hbs}}

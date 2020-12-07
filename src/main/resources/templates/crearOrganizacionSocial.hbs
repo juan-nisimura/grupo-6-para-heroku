@@ -1,0 +1,23 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <fieldset class = "formulario">
+        <legend>Crear Organizacion Social</legend>
+        <form method="POST" action=/entidades/crear_organizacion_social class="content">
+            <label class = "label2">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre..." />
+            <label class = "label2">Razón Social</label>
+            <input type="text" id="razon_social" name="razon_social" placeholder="Ingrese razón social..." />
+            <label class = "label2">Cuit</label>
+            <input type="text" id="cuit" name="cuit" placeholder="Ingrese CUIT..." />
+            <label class = "label2">Dirección Postal</label>
+            <input type="text" id="direccion_postal" name="direccion_postal" placeholder="Ingrese dirección postal..." />
+           	<br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <a class = "submit_gris" href = "/entidades">  Volver  </a>
+        </form>
+    </fieldset>
+</section>
+{{/partial}}
+
+{{>layout.hbs}}

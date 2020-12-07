@@ -1,0 +1,38 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <div>
+        <table>
+            <tr>
+                <th> Entidad </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Entidad 1</td>
+                <td><a>Borrar</a></th>
+            </tr>
+            <tr>
+                <td>Entidad 2</td>
+                <td><a>Borrar</a></th>
+            </tr>
+            <tr>
+                <td>Entidad 3</td>
+                <td><a>Borrar</a></th>
+            </tr>
+        </table>
+    </div>
+    <fieldset class = "formulario">
+        <legend>Agregar entidad</legend>
+        <form>
+            <label class = "label2">ID entidad</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese id entidad..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Agregar" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+    </fieldset>
+    <a class = "link_boton_2" href = "/entidades/entidad_juridica">  Volver  </a>
+</section>
+{{/partial}}
+
+{{>layout.hbs}}

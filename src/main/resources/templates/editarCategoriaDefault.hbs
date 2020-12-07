@@ -1,0 +1,32 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <fieldset class = "formulario">
+        <legend>Editar Categoria Default</legend>
+        <form method="POST" action={{urlEditar}} class="content">
+            <label class = "label2">Id: {{id}}</label>
+            <br />
+            <label class = "label2">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre..." />
+			<br />
+			<input type="checkbox" id="bloquearAgregarEntidadesBase" name="bloquearAgregarEntidadesBase" value="True">
+			<label for="bloquearAgregarEntidadesBase"> Bloquear agregado de entidades base</label>
+			<br />
+			<input type="checkbox" id="bloquearFormarParteEntidadJuridica" name="bloquearFormarParteEntidadJuridica" value="True">
+			<label for="bloquearFormarParteEntidadJuridica"> Bloquear formar parte de una entidad juridica</label>
+            <br />
+            <input type="checkbox" id="bloquearNuevasCompras" name="bloquearNuevasCompras" value="True">
+			<label for="bloquearNuevasCompras"> Bloquear nuevas compras que superen un maximo</label>
+            <br />
+            <label for="egresosMaximos">Egresos Maximos:</label>
+  			<input type="number" id="egresosMaximos" name="egresosMaximos" min="0">
+           	<br />
+            <input class = "submit_azul" type="submit" value="Guardar" >
+            <a class = "submit_gris" href = {{urlView}}>  Volver  </a>
+        </form>
+    </fieldset>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entidades Usuario</title>
+        <link rel="stylesheet" href="dds.css" type="text/css" />
+    </head>
+    <body>
+        <ul class="encabezado">
+            <li class = "elemento_encabezado"><a class = "link_elemento_encabezado" href="menu_usuario.html">Usuario</a></li>
+            <li class = "elemento_encabezado"><a class = "link_elemento_encabezado" href = "entidad.html">Entidad</a></li>
+        </ul>
+        <section class = "content">
+            <div>
+                <table>
+                    <tr>
+                        <th> Entidad </th>
+                        <th> Tipo </th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Entidad 1</td>
+                        <td>Jurídica</td>
+                        <td><a href="editar_entidad.html">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Entidad 2</td>
+                        <td>Base</td>
+                        <td><a href="editar_entidad.html">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Entidad 3</td>
+                        <td>Base</td>
+                        <td><a href="editar_entidad.html">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                </table>
+            </div>
+            <fieldset class = "formulario">
+                <legend>Crear entidad jurídica</legend>
+                <form>
+                    <label class = "label2">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre..." />
+                    <label class = "label2">Razón Social</label>
+                    <input type="text" id="razon_social" name="razon_social" placeholder="Ingrese razón social..." />
+                    <label class = "label2">Cuit</label>
+                    <input type="text" id="cuit" name="cuit" placeholder="Ingrese CUIT..." />
+                    <label class = "label2">Dirección Postal</label>
+                    <input type="text" id="direccion_postal" name="direccion_postal" placeholder="Ingrese dirección postal..." />
+                    <label class = "label2">Dirección Postal</label>
+                    <input type="text" id="codigo_inscripcion" name="codigo_inscripcion" placeholder="Ingrese código de inscripción..." />
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Crear" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <fieldset class = "formulario">
+                <legend>Crear entidad base</legend>
+                <form>
+                    <label class = "label2">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre..." />
+                    <label class = "label2">Descripción</label>
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese descripción..." />
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Crear" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+        </section>
+    </body>
+</html>

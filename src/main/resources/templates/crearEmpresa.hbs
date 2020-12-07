@@ -1,0 +1,31 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <fieldset class = "formulario">
+        <legend>Crear Empresa</legend>
+        <form method="POST" action=/entidades/crear_empresa class="content">
+            <label class = "label2">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre..." />
+            <label class = "label2">Raz贸n Social</label>
+            <input type="text" id="razon_social" name="razon_social" placeholder="Ingrese raz贸n social..." />
+            <label class = "label2">Cuit</label>
+            <input type="text" id="cuit" name="cuit" placeholder="Ingrese CUIT..." />
+            <label class = "label2">Direcci贸n Postal</label>
+            <input type="text" id="direccion_postal" name="direccion_postal" placeholder="Ingrese direcci贸n postal..." />
+           	<label for = "tipo_empresa"> Tipo de Empresa:</label>
+			<select name="tipo_empresa" id="tipo_empresa">
+			  <option value="micro">Micro</option>
+			  <option value="pequena">Peque馻</option>
+			  <option value="mediana_1">Mediana 1</option>
+			  <option value="mediana_2">Mediana 2</option>
+			</select>
+           	<br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <a class = "submit_gris" href = "/entidades">  Volver  </a>
+        </form>
+    </fieldset>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}

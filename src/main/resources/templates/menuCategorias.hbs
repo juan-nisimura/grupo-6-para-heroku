@@ -1,0 +1,29 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <a class = "link_boton" href = "categorias/crear_categoria_default">  Crear Categoría Default  </a>
+    <div>
+        <table>
+    	<tr>
+            <th> Id </th>
+            <th> Categoria </th>
+            <th></th>
+            <th></th>
+        </tr>
+    	{{#each categorias}}
+    		<tr>
+    		<td>{{ id }}</td>
+       		<td>{{ nombre }}</td>
+       		<td><a href = "{{urlView}}">Ver</a></th>
+            <td><a href = "{{urlDelete}}">Borrar</a></td>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+</section>
+<br/>
+    <a class = "link_boton" href = "/">  Volver  </a>
+    
+{{/partial}}
+
+{{>layout.hbs}}

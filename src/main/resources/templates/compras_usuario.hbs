@@ -1,0 +1,76 @@
+{{#partial "contenido"}}
+
+        <section class = "content">
+            <div>
+                <table>
+                    <tr>
+                        <th> Compra </th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Compra prueba 1</td>
+                        <td><a href="/compra/editar">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Compra prueba 2</td>
+                        <td><a href="/compra/editar">Editar</a></th>
+                        <td><a href = "a">Borrar</a></td>
+                    </tr>
+                    {{#each compras}}
+					<tr>
+						<td>{{id}}</td>
+                        <td><a href="/compras/{{id}}">Editar</a></th>
+                        <td>
+                        	<form action="/compras/delete/{{id}}" method="post">
+                        	<input type="submit" value="Borrar" >
+                        	</form>
+                        </td>
+					</tr>
+					{{/each}}
+                </table>
+            </div>
+            <div>
+            	<form action="/compras/validar" method="post">
+            		<input class = "submit_azul" type="submit" value="Validar todas las comprasPendientes" onclick="alert('Se validan las compras, chequee la bandeja de entrada. (Falta convertir exitosas en compras definitivas)')">
+            	</form>
+            </div>
+            <div>
+            	<form action="/usuario/crear" method="get">
+            		<input class = "submit_verde" type="submit" value="Ir a crear componentes de compras">
+            	</form>
+            </div>
+            <fieldset class = "formulario">
+                <legend>Crear compra</legend>
+                <form action="/compras" method="post">
+                    <label class = "label2">Cantidad presupuestos requeridos</label>
+                    <input type="text" id="cant_presup" name="cant_presup" placeholder="Ingrese cantidad de presupuestos..." />
+                    <label class = "label2">Detalle</label>
+                    <input type="text" id="detalle" name="detalle" placeholder="Ingrese nuevo detalle..." />
+                    <label class = "label2">Proveedor</label>
+                    <input type="text" id="proveedor" name="proveedor" placeholder="Ingrese nuevo proveedor..." />
+                    <br />
+                    <label class = "label2">Medio de Pago</label>
+                    <input type="text" id="medio_pago" name="medio_pago" value="{{mediopago.id}}" placeholder="Ingrese nuevo id medio de pago..." />
+                    <label class = "label2">Entidad</label>
+                    <input type="text" id="entidad" name="entidad" value="{{entidad.id}}" placeholder="Ingrese nuevo id de entidad..." />   
+                    <label class = "label2">Criterio Presupuestario</label>
+                    <select class="combo" name="criterio">
+                        <option value="0">Elija una opción...</option>
+                        <option value="1">Sin creterio</option>
+                        <option value="2">Más barato</option>
+                        <option value="3">Más caro</option>
+                        <option value="4">Lo dejo a su criterio</option>
+                    </select>
+                    <br />
+                    <input class = "submit_azul" type="submit" value="Crear" >
+                    <input class = "submit_gris" type="submit" value="Cancelar" >
+                </form>
+            </fieldset>
+            <a class = "link_boton_2" href = "/">  Volver  </a>
+        </section>
+
+{{/partial}}
+
+{{>layout.hbs}}       

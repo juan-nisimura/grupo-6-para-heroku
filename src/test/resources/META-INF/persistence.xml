@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+    http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+
+    <persistence-unit name="db" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+		<class>dominio.compra.Compra</class>
+		<class>dominio.compra.Item</class>
+		<class>dominio.compra.DireccionPostal</class>
+		<class>dominio.compra.DocumentoComercial</class>
+		<class>dominio.compra.MedioPago</class>
+		<class>dominio.compra.Proveedor</class>
+		<class>dominio.presupuestos.Detalle</class>
+		<class>dominio.presupuestos.Presupuesto</class>
+		<class>dominio.presupuestos.CompraPendiente</class>
+		<class>dominio.usuario.Usuario</class>
+		<class>dominio.usuario.BandejaDeMensajes</class>
+		<class>dominio.usuario.Mensaje</class>
+		<class>dominio.entidad.Entidad</class>
+		<class>dominio.entidad.EntidadBase</class>
+		<class>dominio.entidad.Organizacion</class>
+		<class>dominio.entidad.Reporte</class>
+		<class>dominio.entidad.Categoria</class>
+		<class>dominio.entidad.CategoriaDefault</class>
+		<class>dominio.entidad.Empresa</class>
+		<class>dominio.entidad.OrganizacionSocial</class>
+		<class>dominio.entidad.TipoEmpresa</class>
+		
+        <properties>
+            <property name="hibernate.archive.autodetection" value="class"/>
+
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/bd_tp" /> 
+            <property name="hibernate.connection.username" value="root" /> 
+            <property name="hibernate.connection.password" value="mysql" />
+            
+            <!--<property name="hibernate.connection.driver_class" value="org.hsqldb.jdbcDriver"/>
+            <property name="hibernate.connection.url" value="jdbc:hsqldb:mem:app-db"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/> -->
+
+			<property name="hibernate.cache.use_query_cache" value="false"/>
+		 	<property name="hibernate.cache.use_second_level_cache" value="false"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="use_sql_comments" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence> 

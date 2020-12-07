@@ -1,0 +1,57 @@
+{{#partial "contenido"}}
+
+<form class = "content">
+
+	Id: {{ id }}	<br/>
+	Nombre: {{ nombre }}	<br/>
+	Descripcion: {{ descripcion }}	<br/>
+	
+	Tabla de compras:
+	<div>
+        <table>
+    	<tr>
+            <th> Compra </th>
+            <th> Tipo </th>
+            <th></th>
+            <th></th>
+        </tr>
+    	{{#each compras}}
+    		<tr>
+    		<td>{{ nombre }}</td>
+       		<td>{{ tipo }}</td>
+       		<td><a href = "{{urlView}}">Ver</a></th>
+            <td><a href = "{{urlDelete}}">Borrar???</a></td>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+	
+	Tabla de categorias:
+	<div>
+        <table>
+    	<tr>
+            <th> Id </th>
+            <th> Nombre </th>
+            <th></th>
+            <th></th>
+        </tr>
+    	{{#each categorias}}
+    		<tr>
+    		<td>{{ id }}</td>
+       		<td>{{ nombre }}</td>
+       		<td><a href = "{{urlView}}">Ver</a></th>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+	
+	<a class = "link_boton" href = {{urlEditarCategorias}}>  Editar Categorias  </a>
+	<br/>
+    <a class = "link_boton" href = "entidad_base/reportes_mensuales">  Ver reporte mensual ???   </a>
+    <br/>
+    <a class = "link_boton" href = "/entidades">  Volver  </a>
+</form>
+
+{{/partial}}
+
+{{>layout.hbs}}

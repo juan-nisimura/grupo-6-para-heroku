@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="dominio.entidad.EntidadBase" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/EntidadBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4051" y="-138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="dominio.compra.APImercado" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/APImercado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4049" y="505"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="dominio.entidad.EntidadJuridica" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/EntidadJuridica.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3604" y="-176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="dominio.validacion.EsMuyCorta" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/validacion/EsMuyCorta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2425" y="-1002"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="dominio.compra.DireccionPostal" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/DireccionPostal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3758" y="377"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="dominio.compra.Proveedor" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/Proveedor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3469" y="376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="dominio.validacion.ContieneNombreDeUsuario" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/validacion/ContieneNombreDeUsuario.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2592" y="-828"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="dominio.presupuestos.PresupuestoMasBarato" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/PresupuestoMasBarato.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1961" y="-255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="dominio.validacion.RepiteCaracteres" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/validacion/RepiteCaracteres.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3011" y="-993"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="10" language="java" name="dominio.compra.TipoPago" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/TipoPago.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2768" y="-220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="11" language="java" name="dominio.compra.Item" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2735" y="-14"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="dominio.usuario.Administrador" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/usuario/Administrador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3179" y="-664"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="dominio.presupuestos.CompraPendiente" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/CompraPendiente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="385" x="2147" y="-436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="dominio.compra.MedioPago" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/MedioPago.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2768" y="-386"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="dominio.usuario.ValidadorDeContrasenias" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/usuario/ValidadorDeContrasenias.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2873" y="-833"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="16" language="java" name="dominio.entidad.TipoEmpresa" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/TipoEmpresa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3979" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="17" language="java" name="dominio.validacion.Validacion" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/validacion/Validacion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2747" y="-1019"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="dominio.entidad.Entidad" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/Entidad.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3606" y="-487"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="dominio.presupuestos.CriterioDeSeleccionPresupuesto" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/CriterioDeSeleccionPresupuesto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1957" y="-402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="dominio.presupuestos.Presupuesto" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/Presupuesto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3132" y="35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="dominio.compra.Compra" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/Compra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3135" y="-350"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="dominio.compra.DocumentoComercial" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/DocumentoComercial.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3269" y="337"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="dominio.entidad.Empresa" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/Empresa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3977" y="21"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="dominio.usuario.Estandar" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/usuario/Estandar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3181" y="-548"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="dominio.presupuestos.SinCriterioDeSeleccion" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/SinCriterioDeSeleccion.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1961" y="-530"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="dominio.entidad.Organizacion" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/Organizacion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3599" y="-690"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="dominio.usuario.Mensaje" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/usuario/Mensaje.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2262" y="-663"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="dominio.usuario.Usuario" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/usuario/Usuario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2874" y="-594"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="dominio.usuario.BandejaDeMensajes" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/usuario/BandejaDeMensajes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2577" y="-701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="dominio.validacion.EsMala" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/validacion/EsMala.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2355" y="-859"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="31" language="java" name="dominio.compra.TipoDocumentoComercial" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/compra/TipoDocumentoComercial.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2947" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="32" language="java" name="dominio.presupuestos.Detalle" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/Detalle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2672" y="261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="dominio.entidad.OrganizacionSocial" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/OrganizacionSocial.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3547" y="22"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="dominio.entidad.Categoria" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/Categoria.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4101" y="-485"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="dominio.presupuestos.RepositorioComprasPendientes" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/presupuestos/RepositorioComprasPendientes.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1940" y="-62"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="dominio.entidad.Reporte" project="PruebaConcepto" 
+    file="/PruebaConcepto/src/main/java/dominio/entidad/Reporte.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3926" y="-833"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="39">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="40" name="reporte"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="43" name="mensajes">        
+        <position height="0" width="0" x="-86" y="-105"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-86" y="-105"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="46" name="validador">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <bendpoint x="3778" y="-100"/>    
+    <bendpoint x="3900" y="-99"/>    
+    <bendpoint x="3929" y="-99"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="49" name="entidades_base">        
+        <position height="0" width="0" x="-19" y="-1"/>      
+      </attribute>      
+      <multiplicity id="50" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-19" y="-1"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="51">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="52">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="53" name="items">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="54" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="56" name="usuariosRevisores">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="57" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="59" name="compras">        
+        <position height="0" width="0" x="1" y="28"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="1" y="28"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="62" name="detalle">        
+        <position height="0" width="0" x="-14" y="24"/>      
+      </attribute>      
+      <multiplicity id="63" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-14" y="24"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <bendpoint x="3784" y="-134"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="65" name="entidades_usadas">        
+        <position height="0" width="0" x="-19" y="-1"/>      
+      </attribute>      
+      <multiplicity id="66" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-19" y="-1"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <bendpoint x="3130" y="226"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="68" name="documentoComercial">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="69" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="71" name="categoria"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="74" name="bandejaDeEntrada">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="76">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="77">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="78" name="tipoPago">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="79" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="81" name="INSTANCE">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="82" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="84" name="criterioDeSeleccion">        
+        <position height="0" width="0" x="60" y="-144"/>      
+      </attribute>      
+      <multiplicity id="85" minimum="0" maximum="1">        
+        <position height="0" width="0" x="60" y="-144"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <bendpoint x="3868" y="378"/>    
+    <bendpoint x="3893" y="379"/>    
+    <bendpoint x="3906" y="379"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="87" name="mercado_libre">        
+        <position height="0" width="0" x="66" y="-151"/>      
+      </attribute>      
+      <multiplicity id="88" minimum="0" maximum="1">        
+        <position height="0" width="0" x="66" y="-151"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="90" name="entidades">        
+        <position height="0" width="0" x="0" y="-108"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="-108"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="92">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="93">    
+    <bendpoint x="3332" y="-233"/>    
+    <bendpoint x="3332" y="-221"/>    
+    <bendpoint x="3333" y="-194"/>    
+    <bendpoint x="3333" y="166"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="94" name="proveedor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="95" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="96">    
+    <bendpoint x="3820" y="-323"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="97">    
+    <bendpoint x="2908" y="-302"/>    
+    <bendpoint x="2909" y="52"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="98" name="detalle">        
+        <position height="0" width="0" x="-14" y="24"/>      
+      </attribute>      
+      <multiplicity id="99" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-14" y="24"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="100">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="101">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="102" name="comprasPendientes"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="104">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="106">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="107" name="tipoEmpresa">        
+        <position height="0" width="0" x="429" y="12"/>      
+      </attribute>      
+      <multiplicity id="108" minimum="0" maximum="1">        
+        <position height="0" width="0" x="429" y="12"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <bendpoint x="2310" y="-86"/>    
+    <bendpoint x="2310" y="465"/>    
+    <bendpoint x="2873" y="469"/>    
+    <bendpoint x="3468" y="468"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="110" name="proveedor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="111" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="113" name="INSTANCE"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="115">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="116" name="validaciones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="117" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="118">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="119" name="presupuestos">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="120" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="121">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="122">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="123" name="unaCompra">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="124" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="125">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="126">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="127" name="medioPago">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="128" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="130" name="tipoDocumentoComercial">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="131" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="133" name="medioPago">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="134" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="135">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="136">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="137" name="direccion_postal"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="139">    
+    <bendpoint x="2809" y="250"/>    
+    <bendpoint x="2809" y="428"/>    
+    <bendpoint x="3202" y="428"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="140" name="proveedor">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="141" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <bendpoint x="2344" y="396"/>    
+    <bendpoint x="2792" y="400"/>    
+    <bendpoint x="2790" y="225"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="143" name="presupuestos">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="144" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <bendpoint x="4053" y="-243"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="146" name="entidades_usadas">        
+        <position height="0" width="0" x="-19" y="-1"/>      
+      </attribute>      
+      <multiplicity id="147" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-19" y="-1"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="149" name="detalle">        
+        <position height="0" width="0" x="-14" y="24"/>      
+      </attribute>      
+      <multiplicity id="150" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-14" y="24"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <bendpoint x="3300" y="-238"/>    
+    <bendpoint x="3300" y="-224"/>    
+    <bendpoint x="3302" y="-176"/>    
+    <bendpoint x="3305" y="-42"/>    
+    <bendpoint x="3305" y="253"/>    
+    <bendpoint x="3304" y="286"/>    
+    <bendpoint x="3305" y="282"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="152" name="documentoComercial">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="153" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,34 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <form method="POST" action=/login class="content">
+    	<form class = "content">
+    	<a class = "link_boton" href = "entidades/crear_empresa">  Crear Empresa  </a>
+    	<a class = "link_boton" href = "entidades/crear_organizacion_social">  Crear Organizacion Social  </a>
+       	<a class = "link_boton" href = "entidades/crear_entidad_base">  Crear Entidad Base  </a>
+    </form>
+    <div>
+        <table>
+    	<tr>
+            <th> Entidad </th>
+            <th> Tipo </th>
+            <th></th>
+            <th></th>
+        </tr>
+    	{{#each entidades}}
+    		<tr>
+    		<td>{{ nombre }}</td>
+       		<td>{{ tipo }}</td>
+       		<td><a href = "{{urlView}}">Ver</a></th>
+            <td><a href = "{{urlDelete}}">Borrar</a></td>
+       		</tr>
+    	{{/each}}
+    	</table>
+    </div>
+</section>
+<br/>
+    <a class = "link_boton" href = "/">  Volver  </a>
+
+{{/partial}}
+
+{{>layout.hbs}}

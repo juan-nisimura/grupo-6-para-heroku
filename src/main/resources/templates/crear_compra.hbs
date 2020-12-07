@@ -1,0 +1,107 @@
+{{#partial "contenido"}}
+
+<section class = "content">
+    <fieldset class = "formulario">
+        <legend>Crear Detalle</legend>
+        <form action="/usuario/crear" method="post">
+            <label class = "label2">Moneda</label>
+            <input type="text" id="moneda" name="moneda" placeholder="Ingrese moneda..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+        Ultimo detalle creado de id: {{detalle.id}}
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Crear Item</legend>
+        <form action="/usuario/crear" method="post">
+            <label class = "label2">Detalle</label>
+            <input type="text" id="detalle" name="detalle" placeholder="Ingrese id detalle..." />
+            <label class = "label2">Descripción Item</label>
+            <input type="text" id="desc_item" name="desc_item" placeholder="Ingrese descripción de item..." />
+            <label class = "label2">Cantidad Item</label>
+            <input type="text" id="cant_item" name="cant_item" placeholder="Ingrese cantidad de item..." />
+            <label class = "label2">Valor Unitario Item</label>
+            <input type="text" id="val_item" name="val_item" placeholder="Ingrese valor unitario de item..."  />
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+        Ultimo item creado de id: {{item.id}}
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Crear Proveedor</legend>
+         <form action="/usuario/crear" method="post">
+            <label class = "label2">Razón Social</label>
+            <input type="text" id="razon_social" name="razon_social" placeholder="Ingrese razón social..." />
+            <label class = "label2">DNI</label>
+            <input type="text" id="dni" name="dni" placeholder="Ingrese DNI..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+        Ultimo proveedor creado de id: {{proveedor.id}}
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Crear Dirección Postal</legend>
+        <form action="/usuario/crear" method="post">
+            <label class = "label2">Proveedor</label>
+            <input type="text" id="id_proveedor" name="id_proveedor" placeholder="Ingrese id proveedor..." />
+            <label class = "label2">Pais</label>
+            <input type="text" id="pais" name="pais" placeholder="Ingrese país proveedor..." />
+            <label class = "label2">Provincia</label>
+            <input type="text" id="provincia" name="provincia" placeholder="Ingrese provincia..." />
+            <label class = "label2">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad" placeholder="Ingrese ciudad..." />
+            <label class = "label2">Dirección</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Ingrese dirección..." />
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+        Ultima direccionPostal creada de id: {{direccionpostal.id}}
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Crear Medio de Pago</legend>
+        <form action="/usuario/crear" method="post">
+            <label class = "label2">Identificador</label>
+            <input type="text" id="identificador_medio_pago" name="identificador_medio_pago" placeholder="Ingrese identificador medio de pago..." />
+            <label class = "label2">Tipo Pago</label>
+            <select class="combo" name="tipo_pago">
+                <option value="null">Elija una opción...</option>
+                <option value="0">Tarjeta de Crédito</option>
+                <option value="1">Tarjeta de Débito</option>
+                <option value="2">Efectivo</option>
+                <option value="3">Cajero Automático</option>
+                <option value="4">Dinero Cuenta</option>
+            </select>
+            <br />
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+        Ultimo medioPago creado de id: {{mediopago.id}}
+    </fieldset>
+    <fieldset class = "formulario">
+        <legend>Crear Documento Comercial</legend>
+        <form action="/usuario/crear" method="post">
+            <label class = "label2">Numero de Documento</label>
+            <input type="text" id="numero_documento" name="numero_documento" placeholder="Ingrese número de documento..." />
+            <label class = "label2">Tipo Documento</label>
+            <select class="combo" name="tipo_doc">
+                <option value="null">Elija una opción...</option>
+                <option value="0">Sin Documento</option>
+                <option value="1">Factura</option>
+                <option value="2">Ticket</option>
+            </select>
+            <br/>
+            <input class = "submit_azul" type="submit" value="Crear" >
+            <input class = "submit_gris" type="submit" value="Cancelar" >
+        </form>
+        Ultimo documentoComercial creado de id: {{documentocomercial.id}}
+    </fieldset>
+    <a class = "link_boton" href = "/compras">  Volver  </a>
+</section>
+
+{{/partial}}
+
+{{>layout.hbs}}
